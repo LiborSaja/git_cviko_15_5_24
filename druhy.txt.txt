@@ -1,5 +1,8 @@
 00000000000000000000000
 
 function dbsave{
-	save()
+	if(podminka){
+		save()
+	}
+	
 }
